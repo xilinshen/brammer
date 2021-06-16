@@ -1,0 +1,14 @@
+Package: brammer
+Version: 0.0.0
+Date: 2021-06-16
+Title: Brain tumor subtyping through immune infiltration signature
+Author: shenxilin
+Depends: R (>= 3.4.3)
+Imports:
+    data.table,
+    rlang,
+    glue,
+    torch
+Description: Based on expression profiles, this Brammer web application could subtyping brain tumor patients with different immune infiltration signatures (i.e. C1/2 subtypes). The C1 subtype enriches for a constellation of protective markers for prognosis, such as high infiltration of CD8+ T cells and nature killer cells. The C2 subtype has an extensive infiltration of tumor-associated macrophages and microglia, and was enriched with immune suppressive, wound healing and angiogenic signatures.
+License: GPL
+RoxygenNote: 7.1.1

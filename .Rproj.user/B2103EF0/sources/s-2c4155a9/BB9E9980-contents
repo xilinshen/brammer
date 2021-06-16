@@ -1,0 +1,20 @@
+#' Input the path of numpy array that is a python object, and out put the data as a dataframe.
+#'
+#' @param ls the str object of the path of the numpy array.
+#' @return a dataframe
+#'
+#' export
+#'
+#' @exmaples
+#' df <- read_numpy(""/home/shenxilin/xxx.npz")
+#'
+read_numpy <- function(ls){
+  library(reticulate)
+  np <- import("numpy")
+  library("RcppCNPy")
+  library(preprocessCore)
+  data <- np$load(ls)
+  data = data$f[['x']]
+  data <- data.frame(data)
+  return (data)
+}

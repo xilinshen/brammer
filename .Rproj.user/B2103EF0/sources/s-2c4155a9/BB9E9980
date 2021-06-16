@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1611673002812.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BB9E9980",
+    "lastKnownWriteTime" : 1611673288,
+    "last_content_update" : 1611673288384,
+    "path" : "~/R/R_makepackage/Data/condenser/R/read_numpy.R",
+    "project_path" : "R/read_numpy.R",
+    "properties" : {
+        "cursorPosition" : "4,2",
+        "disableDependencyDiscovery" : "1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
